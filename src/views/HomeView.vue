@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <br><br><br>
     <span class="brambora">
       🥔
     </span> <br>  
@@ -20,6 +21,7 @@ export default class HomeView extends Vue {}
 </script>
 <style lang="scss">
 .brambora {
-  font-size: 15rem;
+  padding-top: 30rem;
+  font-size: 7rem;
 }
 </style>
