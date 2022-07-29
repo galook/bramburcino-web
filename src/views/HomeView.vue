@@ -21,7 +21,6 @@ export default class HomeView extends Vue {}
 </script>
 <style lang="scss">
 .brambora {
-  padding-top: 30rem;
   font-size: 7rem;
 }
 </style>
