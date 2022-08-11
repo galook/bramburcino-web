@@ -1,6 +1,6 @@
 <template>
 <ModalComponent v-if="showModal" :string="string" @close="showModal = false" />
-  <h2 class="calendar">Brambůrčin Klanendář</h2>
+  <h2 class="calendar">Brambůrčin Kalendáč</h2>
   <span>Plný zajímavých věcí</span>
   <br><br><br>
   <div class="days">
