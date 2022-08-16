@@ -48,6 +48,8 @@ export default class ModalComponent extends Vue.with(Props) {}
 
 .modal-container {
   max-width: 30rem;
+  max-height: 100vh;
+  overflow: auto;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
