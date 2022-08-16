@@ -28,7 +28,7 @@ export default class Calendar extends Vue {
   string = "Nahlaš chybu AX1 Matýskovi"
 
   public async display(day: string) {
-    const result = await axios.get("https://bramburcino-day-access.stamina.green" + Number(day + 1))
+    const result = await axios.get("https://bramburcino-day-access.stamina.green/?" + Number(day + 1))
     console.log(result);
     console.log(this.days);
 
